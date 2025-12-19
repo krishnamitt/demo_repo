@@ -28,7 +28,7 @@ jobs:
       - run: |
           git config user.name "krishnamitt"
           git config user.email "krishnakadolkar18@gmail.com"
-          git remote set-url origin https://x-access-token:${{ secrets.CIToken}}@github.com/krishnamitt/sigma.git
+          git remote set-url origin https://x-access-token:${{ secrets.CIToken}}@github.com/krishnamitt/demo_repo.git
 
       # 5. Push deployment branch
       - run: |
