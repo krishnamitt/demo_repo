@@ -1,0 +1,12 @@
+<h1>LOGIN PAGE</h1>
+
+<form method="post">
+    {% csrf_token %}
+    <label>Username:</label>
+    <input type="text" name="username" required>
+    <br><br>
+    <button type="submit">Login</button>
+</form>
+
+<br>
+<a href="{% url 'about' %}">About Us</a>
