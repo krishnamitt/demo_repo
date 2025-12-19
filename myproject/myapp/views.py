@@ -15,15 +15,7 @@ from .serializers import StudentSerializer
 # Create your views here.
 
 def hello(request):
-    return HttpResponse("Hello, World!")
-
-def hii(request):
-    return HttpResponse("Hii!")
-
-
-def bye(request):
-    return HttpResponse("Bye ")    
-
+    return HttpResponse("Hello, World!") 
 
 @csrf_exempt
 def echo(request):

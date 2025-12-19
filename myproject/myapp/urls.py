@@ -12,8 +12,6 @@ router.register(r'students', StudentViewSet)
 
 urlpatterns = [
     path('hello/', views.hello),   # default route
-    path('hii/', views.hii),
-    path('bye/', views.bye),   # default route
     path('echo/', views.echo),   # default route
     path('update/', views.update_echo),     # PUT
     path('delete/', views.delete_echo),     # DELETE
